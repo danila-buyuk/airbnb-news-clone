@@ -1,0 +1,110 @@
+/*Global*/
+body {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+h3, h4, h6 {
+  margin: 15px 0px;
+}
+h6 {
+  color: #717171;
+}
+a, a:hover {
+  color: black;
+}
+/*Navbar*/
+.search {
+  width: 350px;
+  border: none;
+}
+.search-form {
+  border: 1px solid #ebebeb;
+}
+.search-field {
+  margin-bottom: 0;
+}
+nav {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 10px;
+}
+/*Main Article*/
+.main-article {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*Latest News*/
+.latest-image {
+  margin: 15px 0px;
+}
+.latest-news {
+  margin-bottom: 50px;
+}
+/*One of A Kind*/
+.one-of-a-kind {
+  margin-bottom: 50px;
+}
+/*Social Media*/
+.links {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.learn-more {
+  border: 2px solid black;
+}
+.social-media {
+  margin-bottom: 50px;
+}
+/*Economic Opportunities*/
+.eco {
+  margin-bottom: 50px;
+}
+/*Mini Articles*/
+.category, .view-more {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+.categories {
+  margin-bottom: 50px;
+}
+.mini {
+  margin-bottom: 50px;
+}
+@media (max-width: 575px) {
+  .mini-article {
+    height: 200px;
+  }
+}
+/*Letter*/
+.letter {
+  margin-bottom: 50px;
+}
+.read-more {
+  border: 2px solid black;
+  margin: 25px;
+}
+/*Footer*/
+dt {
+  margin-bottom: 10px;
+}
+dl {
+  margin-bottom: 50px;
+}
+.copyright {
+  border-top: 1px solid #ebebeb;
+  padding-top: 25px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.no-dot {
+    list-style: none;
+}
+.footer-link {
+  padding: 0 !important;
+  margin: 0 15px !important;
+}
+@media (max-width: 768px) {
+  
+}

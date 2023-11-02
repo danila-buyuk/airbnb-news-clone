@@ -1,0 +1,641 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <title>News</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand" href="#">Airbnb News</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item d-inline-block d-md-none">
+          <input type="search" class="form-control" id="searchInquiry" placeholder="What are you looking for?">
+        </li>
+        <li class="nav-item d-inline-block d-md-none">
+          <select class="form-control" id="languageSelect">
+            <option><a class="dropdown-item" href="#">English</a></option>
+            <option><a class="dropdown-item" href="#">AU and NZ</a></option>
+            <option><a class="dropdown-item" href="#">India</a></option>
+            <option><a class="dropdown-item" href="#">Malaya</a></option>
+            <option><a class="dropdown-item" href="#">United Kingdom</a></option>
+            <option><a class="dropdown-item" href="#">Español (América Latina)</a></option>
+            <option><a class="dropdown-item" href="#">Español (España)</a></option>
+            <option><a class="dropdown-item" href="#">Français</a></option>
+            <option><a class="dropdown-item" href="#">Italiano</a></option>
+            <option><a class="dropdown-item" href="#">Português (Brasil)</a></option>
+            <option><a class="dropdown-item" href="#">Português (Portugal)</a></option>
+            <option><a class="dropdown-item" href="#">简体中文</a></option>
+            <option><a class="dropdown-item" href="#">日本語</a></option>
+            <option><a class="dropdown-item" href="#">한국어</a></option>
+            <option><a class="dropdown-item" href="#">ไทย</a></option>
+          </select>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Media Assets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Product Releases</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item dropdown d-none d-md-block">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Language
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">AU and NZ</a>
+            <a class="dropdown-item" href="#">India</a>
+            <a class="dropdown-item" href="#">Malaya</a>
+            <a class="dropdown-item" href="#">United Kingdom</a>
+            <a class="dropdown-item" href="#">Español (América Latina)</a>
+            <a class="dropdown-item" href="#">Español (España)</a>
+            <a class="dropdown-item" href="#">Français</a>
+            <a class="dropdown-item" href="#">Italiano</a>
+            <a class="dropdown-item" href="#">Português (Brasil)</a>
+            <a class="dropdown-item" href="#">Português (Portugal)</a>
+            <a class="dropdown-item" href="#">简体中文</a>
+            <a class="dropdown-item" href="#">日本語</a>
+            <a class="dropdown-item" href="#">한국어</a>
+            <a class="dropdown-item" href="#">ไทย</a>
+          </div>
+        </li>
+        <li class="nav-item dropleft">
+          <button class="btn btn-secondary dropdown-toggle d-none d-md-inline-block" type="button"
+            data-toggle="dropdown" aria-expanded="false"><i class="fa fa-search"></i>Search</button>
+          <div class="dropdown-menu">
+            <form class="search-field">
+              <div class="d-flex rounded search-form">
+                <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+                <input type="search flex-grow-2" class="form-control search" id="searchInquiry"
+                  placeholder="What are you looking for?">
+              </div>
+            </form>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Main Article-->
+  <div class="main-article">
+    <div class="row d-flex">
+      <div class="col-md-6 order-2 order-md-1 d-flex align-items-center">
+        <div class="article-text-main d-flex align-self-center flex-wrap">
+          <div class="text-date w-100">
+            <h6>October 11, 2023</h6>
+          </div>
+          <a class="link w-100" href="#">
+            <h1>Cozy stays, beaches and Japan top our 2023 winter & holiday travel trends</h1>
+          </a>
+          <a class="btn btn-danger w-15 rounded" href="#" role="button">Read More</a>
+        </div>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 d-flex align-self-center">
+        <img class="img-fluid rounded w-100 main-image" src="./images/630x420.png"></img>
+      </div>
+    </div>
+  </div>
+  <!--Latest News-->
+  <div class="latest-news">
+    <h3>Latest News</h3>
+    <div class="row">
+      <div class="col-md-6 align-self-center">
+        <div class="row">
+          <div class="col-12 col-sm-6 align-self-center">
+            <img class="img-fluid rounded latest-image w-100" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-12 col-sm-6 align-self-center">
+            <a class="link" href="#">
+              <h4>Monica celebrates her 60th birthday and brings her world to Airbnb</h4>
+            </a>
+            <h6>October 11, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 align-self-center">
+        <div class="row">
+          <div class="col-12 col-sm-6 align-self-center">
+            <img class="img-fluid rounded latest-image w-100" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-12 col-sm-6 align-self-center">
+            <a class="link" href="#">
+              <h4>Holiday hacks for the best seasonal stay yet</h4>
+            </a>
+            <h6>October 10, 2023</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 align-self-center">
+        <div class="row">
+          <div class="col-12 col-sm-6 align-self-center">
+            <img class="img-fluid rounded latest-image w-100" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-12 col-sm-6 align-self-center">
+            <a class="link" href="#">
+              <h4>Hosts in the live music capital of the world are tuning up for ACL</h4>
+            </a>
+            <h6>October 2, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 align-self-center">
+        <div class="row">
+          <div class="col-12 col-sm-6 align-self-center">
+            <img class="img-fluid rounded latest-image w-100" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-12 col-sm-6 align-self-center">
+            <a class="link" href="#">
+              <h4>Northwest Arkansas recognized as a go-to destination for remote workers</h4>
+            </a>
+            <h6>September 28, 2023</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--One of A Kind-->
+  <div class="one-of-a-kind">
+    <h4>One-of-a-kind stays, only on Airbnb </h4>
+    <h5 class="w-50">Explore the unique, limited-time stays that give guests a rare glimpse into some of the most iconic
+      places in
+      pop culture. </h5>
+    <div class="row flex-nowrap overflow-auto">
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Spend the night in House of Sunny’s latest collection, now on Airbnb</h4>
+              <h6>September 12, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Barbie’s Malibu DreamHouse is back on Airbnb – but this time, Ken’s hosting</h4>
+              <h6>June 26, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Rediscover Japan in World Heritage Site Gokayama, now on Airbnb</h4>
+              <h6>June 20, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Preview Seoul Fashion Week with K-Pop’s ENHYPEN at Dongdaemun Design Plaza now on Airbnb</h4>
+              <h6>May 16, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Give Mae the evening off and spend the night at Ted Lasso's favorite pub</h4>
+              <h6>March 7, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Palais Garnier, home of The Phantom of the Opera, is now on Airbnb</h4>
+              <h6>February 12, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Social Media-->
+  <div class="social-media">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 align-self-center">
+        <h4 class="text-center">Follow Airbnb for news and travel inspiration</h4>
+        <div class="links d-flex justify-content-center">
+          <a class="btn" href="#" role="button"><i class="fa fa-twitter"></i></a>
+          <a class="btn" href="#" role="button"><i class="fa fa-instagram"></i></a>
+          <a class="btn" href="#" role="button"><i class="fa fa-linkedin-square"></i></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 align-self-center">
+        <img class="img-fluid rounded w-100" src="./images/250x320.png"></img>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 align-self-center">
+        <img class="img-fluid rounded w-100" src="./images/250x320.png"></img>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 align-self-center justify-content-center">
+        <h4 class="text-center w-100">Hear more from Co‑founder and CEO Brian Chesky</h4>
+        <div class="d-flex justify-content-center">
+          <a class="btn learn-more" href="#" role="button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Economic Opportunities-->
+  <div class="eco">
+    <h4>The economic opportunities of hosting</h4>
+    <h5 class="w-50">More people are turning to hosting for the first time. From community stories, to the latest Host
+      earnings data
+      and trends, discover how it has never been easier to host and earn on Airbnb.</h5>
+    <div class="row flex-nowrap overflow-auto">
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Chicago and Denver rank as top cities to start hosting in the US</h4>
+              <h6>June 21, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>US educators are earning extra income by hosting on Airbnb</h4>
+              <h6>May 31, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>More EU Hosts rely on Airbnb income, popularity of rooms grows</h4>
+              <h6>May 3, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Louisville leads as top trending summer spot before Kentucky Derby weekend</h4>
+              <h6>May 3, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Hosts generated over $2 billion in tax revenue in the US and Canada in 2022</h4>
+              <h6>April 12, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9 col-md-6 col-lg-3">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid rounded" src="./images/350x330.png"></img>
+          </div>
+          <div class="col-12">
+            <a class="link" href="#">
+              <h4>Helping Hosts in Massachusetts make their homes more energy efficient</h4>
+              <h6>April 20, 2023</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Mini Articles-->
+  <div class="mini">
+    <h2>Categories</h2>
+    <div class="categories">
+      <a class="btn rounded-pill category" href="#" role="button">All</a>
+      <a class="btn rounded-pill category" href="#" role="button">Company</a>
+      <a class="btn rounded-pill category" href="#" role="button">Stays</a>
+      <a class="btn rounded-pill category" href="#" role="button">Product</a>
+      <a class="btn rounded-pill category" href="#" role="button">Policy</a>
+      <a class="btn rounded-pill category" href="#" role="button">Community</a>
+      <a class="btn rounded-pill category" href="#" role="button">Airbnb.org</a>
+    </div>
+    <div class="row">
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>Spend the night in Shrek's Swamp, now on Airbnb</h5>
+            </a>
+            <h6>September 26, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>Airbnb and Ukraine sign joint memorandum of understanding to support post-war tourism</h5>
+            </a>
+            <h6>September 25, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>Living like a centenarian: Airbnb’s most wishlisted Blue Zone listings</h5>
+            </a>
+            <h6>September 21, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>Welcoming progress on EU-wide short-term rental rules</h5>
+            </a>
+            <h6>September 19, 2023</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>Over 1,000 people in Maui connected to temporary stays through Airbnb.org</h5>
+            </a>
+            <h6>September 13, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>Cozy caves and tiny homes top the most wishlisted Design Category stays</h5>
+            </a>
+            <h6>September 12, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>Airbnb’s most hospitable Hosts across Canada</h5>
+            </a>
+            <h6>September 12, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>James Manyika to join Airbnb’s Board of Directors</h5>
+            </a>
+            <h6>September 11, 2023</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>Back to school: 10 converted schoolhouses and school buses on Airbnb</h5>
+            </a>
+            <h6>September 7, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>‘Historical Homes’ category spreads love for heritage travel across Europe</h5>
+            </a>
+            <h6>September 6, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>An update on our work to crack down on parties and disruptive behavior</h5>
+            </a>
+            <h6>August 31, 2023</h6>
+          </div>
+        </div>
+      </div>
+      <div class="mini-article col-12 col-sm-6 col-md-3">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <img class="img-fluid rounded main-image" src="./images/250x170.png"></img>
+          </div>
+          <div class="col-6 col-sm-12">
+            <a class="link" href="#">
+              <h5>How and where families are traveling on Airbnb this summer</h5>
+            </a>
+            <h6>August 24, 2023</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="btn rounded view-more" src="#" role="button">View more</a>
+  </div>
+  <!--Letter-->
+  <div class="letter">
+    <div class="row">
+      <div class="col-12 col-md-6 align-self-center">
+        <h4 class="text-center w-100">What Makes Airbnb, Airbnb</h4>
+        <h5 class="text-center w-100">A letter from our founders</h5>
+        <div class="d-flex justify-content-center">
+        <a class="btn read-more" src="#" role="button">Read more</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <img class="img-fluid rounded w-100" src="./images/530x400.png"></img>
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <footer>
+    <div class="row">
+      <div class="col-md-4">
+        <dl>
+          <dt>
+            <bold>Support</bold>
+          </dt>
+          <dd><a class="link" href="#">Help Center</a></dd>
+          <dd><a class="link" href="#">AirCover</a></dd>
+          <dd><a class="link" href="#">Anti-discrimination</a></dd>
+          <dd><a class="link" href="#">Disability Support</a></dd>
+          <dd><a class="link" href="#">Cancellation options</a></dd>
+          <dd><a class="link" href="#">Report Neighborhood Concern</a></dd>
+        </dl>
+      </div>
+      <div class="col-md-4">
+        <dl>
+          <dt>
+            <bold>Hosting</bold>
+          </dt>
+          <dd><a class="link" href="#">Airbnb Your Home</a></li>
+          <dd><a class="link" href="#">AirCover for Hosts</a></dd>
+          <dd><a class="link" href="#">Hosting Resources</a></dd>
+          <dd><a class="link" href="#">Community Forum</a></li>
+          <dd><a class="link" href="#">Hosting Responsibility</a></dd>
+          <dd><a class="link" href="#">Airbnb-friendly Apartments</a></dd>
+        </dl>
+      </div>
+      <div class="col-md-4">
+        <dl>
+          <dt>
+            <bold>Airbnb</bold>
+          </dt>
+          <dd><a class="link" href="#">Newsroom</a></dd>
+          <dd><a class="link" href="#">New Features</a></dd>
+          <dd><a class="link" href="#">Careers</a></dd>
+          <dd><a class="link" href="#">Investors</a></dd>
+          <dd><a class="link" href="#">Gift Cards</a></dd>
+          <dd><a class="link" href="#">Airbnb.org Emergency Stays</a></dd>
+        </dl>
+      </div>
+    </div>
+    <dt>Disclaimer</dt>
+    <h6>The Airbnb Newsroom is aimed at journalists. All Homes and Experiences referenced on the Airbnb Newsroom are
+      intended purely to inspire and illustrate. Airbnb does not recommend or endorse specific Home or Experience
+      listings on the Airbnb platform. </h6>
+    <div class="row copyright d-flex">
+      <ul class="col-12 col-md-10 order-2 order-md-1 d-flex justify-content-center justify-content-md-start">
+        <div class="row w-100">
+          <li class="col-12 col-md-auto no-dot text-center">© 2023 Airbnb, Inc. All rights reserved</li>
+          <li class="col-3 d-flex d-md-none"></li>
+          <li class="col-auto footer-link"><a class="link" href="#">Privacy</a></li>
+          <li class="col-auto footer-link"><a class="link" href="#">Terms</a></li>
+          <li class="col-auto footer-link"><a class="link" href="#">Sitemap</a></li>
+        </div>
+      </ul>
+      <div class="col-12 col-md-2 order-1 order-md-2 d-flex justify-content-center">
+        <span class="justify-content-center"><a class="btn" src="#" role="button"><i class="fa fa-twitter"></i></a></span>
+        <span class="justify-content-center"><a class="btn" src="#" role="button"><i class="fa fa-instagram"></i></a></span>
+        <span class="justify-content-center"><a class="btn" src="#" role="button"><i class="fa fa-linkedin-square"></i></a></span>
+        <span class="justify-content-center"><a class="btn" src="#" role="button"><i class="fa fa-facebook-official"></i></a></span>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery first, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
